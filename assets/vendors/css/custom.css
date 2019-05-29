@@ -1,0 +1,65 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : 
+ Author : 
+ URL : http://
+
+ Last Updated : 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+#container, html.embed {
+    background-color: #ce0046;
+}
+
+.wufoo .info h2 {
+    display: none;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+	display: none;
+}
+
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+	text-align: center;
+}
+
+#form1.wufoo {
+	background: #cd0045;
+} 
+
+#form2.wufoo {
+	background: #4285f4;
+} 
+
+#form1.wufoo li.focused {
+	background: #cd0045;
+}
+
+#form2.wufoo li.focused {
+	background: #4285f4;
+}
+
+.wufoo input.text{
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+}
+
+#form1.wufoo input[type="submit"],
+#form2.wufoo input[type="submit"] {
+	padding: 1em 2em;
+	font-family: "Source Sans Pro", sans-serif;
+	color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;	
+}	
+
+#form1.wufoo input[type="submit"] {
+	background: #4285f4;
+}
+
+#form2.wufoo input[type="submit"] {
+	background: #cd0045;
+}
